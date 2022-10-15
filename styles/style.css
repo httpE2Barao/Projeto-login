@@ -53,6 +53,7 @@ section#login > div#formulario {
 section#login > div#formulario > h1 {
     padding: 10px;
     font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
 }
 
 section#login > div#formulario > p {
@@ -71,4 +72,13 @@ section#login > div#formulario > input.botao {
     height: 50px;
     border-radius: 10px;
     font-weight: 800;
+}
+
+section > a > img {
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%);
 }
