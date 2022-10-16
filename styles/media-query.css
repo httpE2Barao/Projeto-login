@@ -9,6 +9,7 @@
         width: 35%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
+        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.349);
     }
     section#login > div#formulario > p {
         margin-bottom: 130px;
@@ -30,6 +31,7 @@
         width: 35%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
+        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.349);
     }
     section#login > div#formulario > p {
         margin-bottom: 130px;
@@ -43,4 +45,5 @@
     section#login > div#formulario > input.botao {
         margin-top: 5%;
     }
+    
 }  
