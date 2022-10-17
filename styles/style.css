@@ -88,4 +88,5 @@ section#login > div#formulario > input.botao:hover {
     transform: translate(-3px, -3px);
     cursor: pointer;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.521);
+    transition: transform .3s, box-shadow .3s;
 }
