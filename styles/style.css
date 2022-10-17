@@ -76,14 +76,6 @@ section#login > div#formulario > input.botao {
     font-weight: 800;
 }
 
-section > a > img {
-    background-color: black;
-    border-radius: 50%;
-    position: relative;
-    top: 90vh;
-    left: 50%;
-    transform: translate(-50%);
-}
 section#login > div#formulario > input.botao:hover {
     transform: translate(-3px, -3px);
     cursor: pointer;

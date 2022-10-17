@@ -14,19 +14,27 @@
             <div id="imagem">
             </div>
             <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vinde novamente. <br> Faça login para acessar sua conta.</p>
+                <h1>Bem-vinde!</h1>
+                <p>Faça login para acessar o repositório!</p>
                 <form action="login.php" method="post"></form>
                 <label for="iusu"><strong></strong></label>
-                <input type="text" name="usu" id="iusu" placeholder="Usuário"><br><br>
+                <input type="text" name="usu" id="iusu" placeholder="Usuário" autocomplete="off"><br><br>
                 <label for="isen"><strong></strong></label>
                 <input type="password" name="sen" id="isen" placeholder="Senha"><br><br>
-                <input type="submit" value="Entrar" class="botao">
+                <input type="submit" value="Entrar" class="botao" onclick="logar(); return false">
             </div>
         </section>
-        <section>
-            <a href="../Code-study/HTML/1.Página Inicial.html"><img src="../Code-study/HTML/Downloads/voltar.png" alt="Voltar"></a>
-        </section>
+        <script>
+            function logar(){
+                var login = document.getElementById('iusu').value;
+                var senha = document.getElementById('isen').value;
+                if (login == "admin" && senha == "admin"){
+                    location.href = "../Code-study/HTML/1.Página Inicial.html"
+                }else{
+                    alert('Usuário ou Senha incorretos!')
+                }
+            }
+        </script>
     </main>
 </body>
 </html>
