@@ -6,9 +6,6 @@
     section#login > div#imagem {
         height: 100px;
     }
-    section#login > div#formulario > input {
-        font-size: medium;
-    }
     section#login > div#formulario > h1 {
         font-size: 7vw;
         margin-top: 3vh;
@@ -17,7 +14,9 @@
         font-size: 3vw;
         margin-bottom: 7vh;
     }
-
+    div#form > input {
+        font-size: medium;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     section#login {
@@ -36,7 +35,7 @@
     section#login > div#formulario > h1 {
         padding: 50px 10px 25px 10px;
     }
-    section#login > div#formulario > input.botao {
+    div#form > input.botao {
         margin-top: 5%;
     }
 }
@@ -61,7 +60,7 @@
     section#login > div#formulario > h1 {
         padding: 50px 10px 25px 10px;
     }
-    section#login > div#formulario > input.botao {
+    div#form > input.botao {
         margin-top: 5%;
     }
 }  
