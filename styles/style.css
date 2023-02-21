@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html, body {
-    background-image: #13142b;
+    background-image: hsl(238, 39%, 12%);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
