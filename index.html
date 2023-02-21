@@ -22,19 +22,10 @@
                 <input type="text" name="usu" id="iusu" placeholder="Usuário" autocomplete="off"><br><br>
                 <label for="isen"><strong></strong></label>
                 <input type="password" name="sen" id="isen" placeholder="Senha"><br><br>
-                <input type="submit" value="Entrar" class="botao" onclick="logar(); return false">
+                <input type="submit" value="Entrar" class="botao"; return false">
             </div>
         </section>
-        <script>
-            function logar(){
-                var login = document.getElementById('iusu').value;
-                var senha = document.getElementById('isen').value;
-                if (login == "admin" && senha == "admin"){
-                    location.href = "../Code-study/HTML/1.Página Inicial.html"
-                }else{
-                    alert('Usuário ou Senha incorretos!')
-                }
-            }
+        <script src="js/main.js">
         </script>
     </main>
 </body>
