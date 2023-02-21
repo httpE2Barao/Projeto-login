@@ -58,25 +58,25 @@ section#login > div#formulario > h1 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
 }
 
-section#login > div#formulario > p {
+#form > p {
     margin-bottom: 50px;
 }
 
-section#login > div#formulario > form > input {
+#form > input {
     border-radius: 5px;
     font-weight: 700;
     font-size: larger;
     text-align: center;
 }
 
-section#login > div#formulario > form > input.botao {
+#form > input.botao {
     width: 100px;
     height: 50px;
     border-radius: 10px;
     font-weight: 800;
 }
 
-section#login > div#formulario > form > input.botao:hover {
+#form > input.botao:hover {
     transform: translate(-3px, -3px);
     cursor: pointer;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.521);
