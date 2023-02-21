@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @media screen and (min-width: 0px) and (max-width: 550px) {
+    section#login {
+        height: 500px;
+    }
+    section#login > div#imagem {
+        height: 100px;
+    }
     section#login > div#formulario > input {
         font-size: medium;
     }
