@@ -46,37 +46,37 @@ section#login > div#imagem {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
 }
 
-#form {
+#formulario {
     display: block;
     padding: 15px;
     text-align: center;
 }
 
-section#login > div#formulario > h1 {
+#formulario > h1 {
     padding: 10px;
     font-size: 2.5em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
 }
 
-#form > p {
+#formulario > p {
     margin-bottom: 50px;
 }
 
-#form > input {
+#formulario > input {
     border-radius: 5px;
     font-weight: 700;
     font-size: larger;
     text-align: center;
 }
 
-#form > input.botao {
+#formulario > input.botao {
     width: 100px;
     height: 50px;
     border-radius: 10px;
     font-weight: 800;
 }
 
-#form > input.botao:hover {
+#formulario > input.botao:hover {
     transform: translate(-3px, -3px);
     cursor: pointer;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.521);
