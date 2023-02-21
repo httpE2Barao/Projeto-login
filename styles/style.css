@@ -62,21 +62,21 @@ section#login > div#imagem {
     margin-bottom: 50px;
 }
 
-#formulario > input {
+#form > input {
     border-radius: 5px;
     font-weight: 700;
     font-size: larger;
     text-align: center;
 }
 
-#formulario > input.botao {
+#form > input.botao {
     width: 100px;
     height: 50px;
     border-radius: 10px;
     font-weight: 800;
 }
 
-#formulario > input.botao:hover {
+#form > input.botao:hover {
     transform: translate(-3px, -3px);
     cursor: pointer;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.521);
