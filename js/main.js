@@ -1,9 +1,8 @@
-const usu = document.querySelector('#iusu')
-const sen = document.querySelector('#isen')
 const input = document.querySelector('.botao')
+const form = document.querySelector('#form')
 
 function clicar() {
-    sen.addEventListener('keydown', (evento) => {
+    form.addEventListener('keydown', (evento) => {
         if (evento.key == "Enter") {
             evento.preventDefault();
             console.log("click")
@@ -18,6 +17,8 @@ function clicar() {
 window.addEventListener('DOMContentLoaded', clicar);
 
 function logar(){
+    const usu = document.querySelector('#iusu')
+    const sen = document.querySelector('#isen')
     if (usu.value == "admin" && sen.value == "admin"){
         location.href = "https://httpe2barao.github.io/Code-study/HTML/1.P%C3%A1gina%20Inicial.html"
     }else{
