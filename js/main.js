@@ -5,7 +5,6 @@ function clicar() {
     form.addEventListener('keydown', (evento) => {
         if (evento.key == "Enter") {
             evento.preventDefault();
-            console.log("click")
             logar()
         }
     })
@@ -16,7 +15,7 @@ function clicar() {
 
 window.addEventListener('DOMContentLoaded', clicar);
 
-function logar(){
+function logar() {
     const usu = document.querySelector('#iusu')
     const sen = document.querySelector('#isen')
     if (usu.value == "admin" && sen.value == "admin"){
