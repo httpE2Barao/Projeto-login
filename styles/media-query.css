@@ -13,13 +13,13 @@
         font-size: 3vw;
         margin-bottom: 7vh;
     }
-    div#form > input {
+    #form > input {
         width: 50vw;
         font-size: medium;
     }
 }
 @media screen and (min-width: 550px) and (max-width: 768px) {
-    div#form {
+    #form {
         margin: 0 16%;
     }   
 }
@@ -40,10 +40,10 @@
     section#login > div#formulario > h1 {
         padding: 50px 10px 25px 10px;
     }
-    div#form {
+    #form {
         margin: 0 16%;
     }
-    div#form > input.botao {
+    #form > input.botao {
         margin-top: 5%;
     }
 }
@@ -68,10 +68,10 @@
     section#login > div#formulario > h1 {
         padding: 50px 10px 25px 10px;
     }
-    div#form {
+    #form {
         margin: 0 19%;
     }
-    div#form > input.botao {
+    #form > input.botao {
         margin-top: 5%;
     }
 }  
